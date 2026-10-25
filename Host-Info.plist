@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>zh_CN</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1</string>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+	<key>CFBundleExecutable</key>
+	<string>LocalNewFile</string>
+	<key>CFBundleIdentifier</key>
+	<string>local.codex.LocalNewFile</string>
+	<key>CFBundleName</key>
+	<string>Mac新建文件</string>
+	<key>CFBundleDisplayName</key>
+	<string>Mac新建文件</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>LSUIElement</key>
+	<false/>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>LocalNewFile</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>localnewfile</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
